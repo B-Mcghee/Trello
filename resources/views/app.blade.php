@@ -8,6 +8,8 @@
         <link rel="stylesheet" href="{{ mix('css/app.css' ) }}">
         <script src="{{ mix('js/app.js') }}" defer></script>
         <body class="h-screen text-gray-800">
-            <div id="app"></div>
+            <div id="app" class="h-full">
+                <Board></Board>
+            </div>
         </body>
 </html>
